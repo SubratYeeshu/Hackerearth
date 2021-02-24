@@ -8,23 +8,7 @@ int main()
     {
         printf("0");
     }
-    else if (n == 1)
-    {
-        printf("1");
-    }
-    else if (n == 2)
-    {
-        printf("1");
-    }
-    else if (n == 3)
-    {
-        printf("1");
-    }
-    else if (n == 4)
-    {
-        printf("1");
-    }
-    else if (n == 5)
+    else if (n <= 5)
     {
         printf("1");
     }
