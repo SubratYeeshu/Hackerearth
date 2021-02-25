@@ -1,22 +1,25 @@
 #include <stdio.h>
 
 int main()
+
 {
-    int n;
+
+    int n, count;
+
     scanf("%d", &n);
-    if (n == 0)
+
+    if (n % 5 == 0)
+
     {
-        printf("0");
+
+        count = n / 5;
     }
-    else if (n <= 5)
+
+    else
     {
-        printf("1");
+
+        count = (n / 5) + 1;
     }
-    else if (n > 5)
-    {
-        int remainder;
-        remainder = n % 5;
-        printf("%d", (((n - remainder) / 5) + remainder));
-    }
-    return 0;
+
+    printf("%d", count);
 }
